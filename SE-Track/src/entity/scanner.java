@@ -6,7 +6,7 @@ public class scanner {
     public static void main(String[] args) {
 
        //Scanner aanmaken
-       Scanner input = new Scanner(System.in);
+       java.util.Scanner input = new java.util.Scanner(System.in);
 
        //tekst bij de scanner
        System.out.print("Add review:");
@@ -18,7 +18,7 @@ public class scanner {
        System.out.println("Review is: " + value);
 
        //scanner 2.0 toevoegen
-        Scanner input2 = new Scanner(System.in);
+        java.util.Scanner input2 = new java.util.Scanner(System.in);
         System.out.print("Add dj:");
 
         String value2 =input2.nextLine();

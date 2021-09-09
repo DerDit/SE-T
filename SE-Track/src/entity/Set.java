@@ -1,6 +1,6 @@
 package entity;
 
-public class set implements java.io.Serializable{
+public class Set implements java.io.Serializable{
     private Long id;
     private String name;
     private String day;
@@ -8,7 +8,7 @@ public class set implements java.io.Serializable{
     private String begintime;
     private String endtime;
 
-    public set() {
+    public Set() {
     }
 
     public Long getId() {

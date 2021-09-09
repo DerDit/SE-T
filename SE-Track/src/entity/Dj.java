@@ -2,13 +2,13 @@ package entity;
 
 import java.io.Serializable;
 
-public class dj implements java.io.Serializable {
+public class Dj implements java.io.Serializable {
     private Long id;
     private String name;
     private int age;
     private String style;
 
-    public dj(){
+    public Dj(){
     }
 
     public Long getId() {

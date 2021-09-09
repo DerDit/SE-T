@@ -2,12 +2,12 @@ package entity;
 
 import java.io.Serializable;
 
-public class review implements java.io.Serializable {
+public class Review implements java.io.Serializable {
     private Long id;
     private int rating;
     private String comment;
 
-    public review() {
+    public Review() {
     }
 
     public Long getId() {
@@ -33,4 +33,7 @@ public class review implements java.io.Serializable {
     public void setComment(String comment) {
         this.comment = comment;
     }
-}
+
+    }
+
+
