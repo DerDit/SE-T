@@ -27,5 +27,4 @@ public class scanner {
         //afsluiten van de input
         input.close();
     }
-
 }
