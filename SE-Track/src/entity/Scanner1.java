@@ -2,7 +2,7 @@ package entity;
 
 import  java.util.Scanner;
 
-public class scanner {
+public class Scanner1 {
     public static void main(String[] args) {
 
        //Scanner aanmaken
